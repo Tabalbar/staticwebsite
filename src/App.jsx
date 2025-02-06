@@ -6,7 +6,15 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return <>This is my first deployed AWS Application</>;
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+
+        <h1>Hello from Amplify</h1>
+      </header>
+    </div>
+  );
 }
 
 export default App;
